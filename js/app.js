@@ -1,13 +1,13 @@
 const app = new Vue({
     el: '#app',
     data: {
-      username: 'Front-End Engineer',
+      username: 'Full Stack Web Developer',
       newTweet: '',
       tweets: [
-        'I have been coding for over 2 years!', 
-        'Its time to code.', 
-        'I am now using Vue.'
+        'Its time to code!',
+        'Embrace the journey', 
+        'Love your visions'
       ],
-      bio: 'Excited Front-End Engineer.'
+      bio: 'Excited Full Stack Web Developer.'
     }
   });

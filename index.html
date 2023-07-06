@@ -14,7 +14,7 @@
     <div class="user">
       <div class="user-information">
         <div class="image-container">
-          <img src="images/profile.png" alt="profile picture">
+          <img src="images/profile.jpeg" alt="profile picture">
         </div>
         <h3>{{ username }}</h3>
       </div>
@@ -36,7 +36,7 @@
       <label for="tweet">New Tweet</label>
       <div class="new-tweet">
         <input type="text" value="tweet" placeholder="New Tweet" v-model="newTweet" />
-        <button v-on:click="tweets.push(newTweet)">Add Tweet</button>
+        <button class="new-button" v-on:click="tweets.push(newTweet);newTweet=''">Add Tweet</button>
       </div>
     </div>
   </div>

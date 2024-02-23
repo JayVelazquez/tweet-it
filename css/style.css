@@ -22,7 +22,7 @@ body {
   
   h1 {
     padding: .75rem;
-    background-color: #2CDBD8;
+    background-color: #107A7A;
     text-align: center;
     font-size: 2rem;
     font-weight: 900;
@@ -116,7 +116,7 @@ body {
   .new-tweet button {
     cursor: pointer;
     border-radius: 10px;
-    background-color: #22A8A6;
+    background-color: #107A7A;
     color: #ffffff;
     transition: .25s;
   }
@@ -126,7 +126,7 @@ body {
   }
 
   footer {
-    background-color: #2CDBD8;
+    background-color: #107A7A;
     padding-bottom: 4rem;
   }
 

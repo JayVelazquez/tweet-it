@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>Tweet It</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Join our Twitter-inspired app for quick tweets and effortless updates to your username and bio. Stay connected and share your thoughts with ease!">
   <link rel="stylesheet" type="text/css" href="./css/reset.css">
   <link rel="stylesheet" type="text/css" href="./css/style.css">
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
   <script src="./js/components/Tweet.js" defer></script>
   <script src="./js/app.js" defer></script>
+  <link rel="icon" href="/images/favicon.webp" />
+  <link rel="apple-touch-icon" href="/images/favicon.webp" />
 </head>
 <body>
   <div id="app">
@@ -14,7 +18,7 @@
     <div class="user">
       <div class="user-information">
         <div class="image-container">
-          <img src="images/profile.jpeg" alt="profile picture">
+          <img src="images/profile.webp" alt="profile picture" width="100px" height="86px">
         </div>
         <h3>{{ username }}</h3>
       </div>
